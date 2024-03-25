@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <form action="">
+      <fieldset class="header">
+        <h1>Sign Up</h1>
+        <p>To get started create an account with Lumierefolio</p>
+      </fieldset>
+      <fieldset class="main">
+        <div class="info">
+          <label for="username" class="ctr">USERNAME</label>
+          <input
+            class="box ctr"
+            type="text"
+            id="username"
+            name="username"
+            placeholder="enter your unqiue name"
+          />
+        </div>
+        <div class="info">
+          <label for="email" class="ctr">EMAIL ADDRESS</label>
+          <input
+            class="box ctr"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="input"
+          />
+        </div>
+        <div class="info">
+          <label for="pwd" class="ctr">PASSWORD</label>
+          <input
+            class="box ctr"
+            type="password"
+            name="password"
+            id="pwd"
+            placeholder="Enter Password"
+          />
+        </div>
+        <div class="info">
+          <label for="pwd" class="ctr">CONFIRM PASSWORD</label>
+          <input
+            class="box ctr"
+            type="password"
+            name="password"
+            id="pwd"
+            placeholder="Enter Password"
+          />
+        </div>
+        <div class="check-pwd">
+          <div>
+            <input type="checkbox" name="remember" id="reme" />
+            <label for="reme">Remember me for 30 days</label>
+          </div>
+          <div>
+            <a href="http://">Forgot Password</a>
+          </div>
+        </div>
+        <input type="submit" class="box ctr" value="Log into Account" />
+      </fieldset>
+      <fieldset class="btn">
+        <input class="box ctr" type="submit" value="Continue with Google" />
+        <input class="box ctr" type="submit" value="Continue with Twitter" />
+      </fieldset>
+      <fieldset class="footer">
+        <p class="acct">Are you new here?</p>
+        <a href="">Create Account</a>
+      </fieldset>
+    </form>
+  </body>
+</html>

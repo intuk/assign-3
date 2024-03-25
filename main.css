@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+form {
+    width: 30%;
+    margin: 40px auto;
+    border: 1px solid #D0D5DD;
+
+}
+
+.header, .main, .btn, .footer {
+    border: none;
+}
+
+.header, .footer, .btn {
+    text-align: center;
+}
+
+.ctr {
+    display: block;
+    color: #101928;
+    font-weight: 500;
+    font-size: 1.14rem;
+
+}
+
+.box {
+    width: 100%;
+    height: 56px;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 10px 0;
+}
+ 
+
+.header {
+    margin: 40px 40px 32px 40px;
+}
+
+.main {
+    margin: 0px 40px;
+}
+
+.btn {
+    margin: 12px 40px 12px 40px;
+}
+
+.footer {
+    margin: 0 40px 40px 40px;
+    
+}
+
+.info {
+    margin-bottom: 18px;
+}
+
+.acct {
+    display: inline;
+}
+
+input[value="Log into Account"] {
+    background-color: #0B4F3E;
+    color: #FFF;
+    border: 1.5px solid #0B4F3E;
+}
+
+input[type="submit"] {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+input[value="Continue with Google"] {
+    border: 1.5px solid #D0D5DD;
+    background-color: #FFFFFF;
+    background-image: url("/img/Button/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+    background-position: 110px;
+}
+
+input[value="Continue with Twitter"] {
+    border: 1.5px solid #D0D5DD;
+    background-color: #FFFFFF;
+    background-image: url("/img/Button/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-position: 110px;
+
+}
+
+.check-pwd {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+ a {
+    text-decoration: none;
+    color: #0B4F3E;
+    font-weight: 500;
+ }
+
