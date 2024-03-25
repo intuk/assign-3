@@ -81,7 +81,7 @@ input[value="Continue with Google"] {
     background-color: #FFFFFF;
     background-image: url("Rectangle 6.png");
     background-repeat: no-repeat;
-    background-position: 150px;
+    background-position: 110px;
 }
 
 input[value="Continue with Twitter"] {
@@ -89,7 +89,7 @@ input[value="Continue with Twitter"] {
     background-color: #FFFFFF;
     background-image: url("Rectangle 5.png");
     background-repeat: no-repeat;
-    background-position: 150px;
+    background-position: 110px;
 
 }
 
