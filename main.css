@@ -79,17 +79,17 @@ input[type="submit"] {
 input[value="Continue with Google"] {
     border: 1.5px solid #D0D5DD;
     background-color: #FFFFFF;
-    background-image: url("/img/Button/Rectangle\ 6.png");
+    background-image: url("/Rectangle\ 6.png");
     background-repeat: no-repeat;
-    background-position: 120px;
+    background-position: 150px;
 }
 
 input[value="Continue with Twitter"] {
     border: 1.5px solid #D0D5DD;
     background-color: #FFFFFF;
-    background-image: url("/img/Button/Rectangle\ 5.png");
+    background-image: url("/Rectangle\ 5.png");
     background-repeat: no-repeat;
-    background-position: 120px;
+    background-position: 150px;
 
 }
 
