@@ -9,7 +9,7 @@ body {
 }
 
 form {
-    width: 30%;
+    width: 25%;
     margin: 40px auto;
     border: 1px solid #D0D5DD;
 
@@ -27,8 +27,23 @@ form {
     display: block;
     color: #101928;
     font-weight: 500;
-    font-size: 1.14rem;
+    font-size: 0.8rem;
+    line-height: 20.3px;
+    
 
+}
+
+label[for="reme"], .info {
+    color: #101928;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 20.3px;
+}
+
+
+input[type="checkbox"] {
+    width: 20px ;
+    height: 20px;
 }
 
 .box {
@@ -36,33 +51,50 @@ form {
     height: 56px;
     border-radius: 6px;
     padding: 16px;
-    margin: 10px 0;
 }
+
+
  
 
 .header {
-    margin: 40px 40px 32px 40px;
+    margin: 64px 0 40px 0;
+}
+
+.header p {
+    font-size: 1rem;
+    font-weight: 400px;
+    line-height: 23.2px;
+    color: #667185;
 }
 
 .main {
-    margin: 0px 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 24px;
 }
 
 .btn {
-    margin: 12px 40px 12px 40px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .footer {
-    margin: 0 40px 40px 40px;
+    margin-bottom: 64px;
+    margin-top: 24px;
     
 }
 
 .info {
-    margin-bottom: 18px;
+    margin-bottom: 24px;
+
 }
 
 .acct {
     display: inline;
+    color: #667185;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 23.2px;
 }
 
 input[value="Log into Account"] {
@@ -74,23 +106,26 @@ input[value="Log into Account"] {
 input[type="submit"] {
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
+    line-height: 23.2px;
 }
 
 input[value="Continue with Google"] {
     border: 1.5px solid #D0D5DD;
     background-color: #FFFFFF;
-    background-image: url("Rectangle 6.png");
+    background-image: url("./img/Rectangle 6.png");
     background-repeat: no-repeat;
-    background-position: 110px;
+    background-position: 20%;
+    margin-bottom: 12px;
+    
 }
 
 input[value="Continue with Twitter"] {
     border: 1.5px solid #D0D5DD;
     background-color: #FFFFFF;
-    background-image: url("Rectangle 5.png");
+    background-image: url("./img/Rectangle 5.png");
     background-repeat: no-repeat;
-    background-position: 110px;
-
+    background-position: 20%;
 }
 
 .check-pwd {
@@ -99,9 +134,18 @@ input[value="Continue with Twitter"] {
     margin-bottom: 24px;
 }
 
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
  a {
     text-decoration: none;
     color: #0B4F3E;
     font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 20.3px;
+    
  }
 
